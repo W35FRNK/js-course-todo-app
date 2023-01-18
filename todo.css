@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+
+
+}
+.container_input, .container_output {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#todo-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+}
+
+#date-picker {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+}
+
+button {
+  background-color: rgb(71, 124, 78);
+  color: #fff;
+  padding: .5rem;
+  margin-left: 1rem;
+  
+
+}
+
+.container_input > button {
+  background-color: rgb(48, 127, 141);
+  width: 5rem;
+  align-self: flex-end;
+}
+
+input {
+  padding: .5rem;
+}
+
